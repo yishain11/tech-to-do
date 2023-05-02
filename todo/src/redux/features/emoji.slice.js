@@ -10,4 +10,4 @@ export const emojiAPI = createApi({
     })
 });
 
-export const { useGetEmojiQuery } = emojiAPI;
+export const { useGetEmojiQuery, useLazyGetEmojiQuery } = emojiAPI;
